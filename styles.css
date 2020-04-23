@@ -1,5 +1,19 @@
-.yellow-box {
+.card {
+}
+.picture {
+    background-color: red;
+    height: 210px;
+    width: 430px;
+}
+
+.caption {
+    background-color: blueviolet;
     height: 100px;
-    width: 100px;
-    background-color: yellow;
+    width: 430px;
+}
+
+.profile {
+    background-color: green;
+    height: 100px;
+    width: 430px;
 }
