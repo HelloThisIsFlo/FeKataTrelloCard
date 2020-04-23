@@ -1,19 +1,25 @@
 .card {
+    width:430px;
 }
-.picture {
+.card__picture {
     background-color: red;
     height: 210px;
-    width: 430px;
 }
 
-.caption {
+.card__caption {
     background-color: blueviolet;
     height: 100px;
-    width: 430px;
 }
 
-.profile {
-    background-color: green;
+.card__footer {
     height: 100px;
-    width: 430px;
+}
+.profile {
+    background-color: brown;
+    height: 100px;
+}
+
+.attachment {
+    background-color: green;
+    height: 100px; 
 }
