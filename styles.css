@@ -12,14 +12,18 @@
 }
 
 .card__footer {
+    display: flex;
+    justify-content: space-between;
     height: 100px;
 }
 .profile {
     background-color: brown;
     height: 100px;
+    width: 100px;
 }
 
 .attachment {
     background-color: green;
-    height: 100px; 
+    height: 100px;
+    width: 100px;
 }
