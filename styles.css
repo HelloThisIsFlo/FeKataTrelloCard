@@ -1,7 +1,7 @@
 .card {
     width:430px;
     border: 2px solid red;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
 }
 .card__picture {
