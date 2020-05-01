@@ -1,8 +1,12 @@
 .card {
     width:430px;
+    border: 2px solid red;
 }
 .card__picture {
-    background-color: red;
+    background-image: url("http://placekitten.com/1000/1000");
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px;
     height: 210px;
 }
 
