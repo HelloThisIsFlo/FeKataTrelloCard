@@ -22,13 +22,11 @@
 
 .profile__picture {
     background-color: red;
-    height: 100px;
     width: 50px
 }
 
 .profile__name {
     background: yellow;
-    height: 100px;
     width: 50px;
 }
 
@@ -38,12 +36,10 @@
 
 .attachment__icon {
     background-color: green;
-    height: 100px;
     width: 50px;
 }
 
 .attachment__number {
     background-color: blue;
-    height: 100px;
     width: 50px;
 }
