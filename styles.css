@@ -1,15 +1,20 @@
+html * {
+    box-sizing: border-box;
+}
+
 .card {
     width:400px;
     border: 2px solid red;
     border-radius: 10px;
     overflow: hidden;
+    padding: 40px;
 }
 .card__picture {
     background-image: url("http://placekitten.com/1000/1000");
     background-size: cover;
     border-radius: 20px;
-    margin: 20px;
     height: 210px;
+    margin-bottom: 20px;
 }
 
 .card__caption {
@@ -22,13 +27,18 @@
     justify-content: space-between;
     height: 80px;
 }
+
 .profile {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile > * {
+    border: 1px solid;
 }
 
 .profile__picture {
-    width: 80px;
-    position: relative;
 }
 
 .image {
@@ -37,14 +47,11 @@
     width: 45px;
     background-size: cover;
     background-image: url("card_pic.jpg");
-    position: absolute;
-    top: 10px;
-    right: 10px;
 }
 
 .profile__name {
-    background: yellow;
     width: 50px;
+    text-align: center;
 }
 
 .attachment {
