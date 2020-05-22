@@ -3,12 +3,21 @@ html * {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #E0E2E8;
+}
+
 .card {
     width:400px;
-    border: 2px solid red;
     border-radius: 10px;
     overflow: hidden;
     padding: 25px;
+    background-color: white;
+    box-shadow: 4px 4px 10px -3px grey;
+
+
+
+    margin: 50px;
 }
 .card__picture {
     background-image: url("http://placekitten.com/1000/1000");
@@ -63,6 +72,9 @@ html * {
 }
 
 .attachment__number {
-    background-color: blue;
-    width: 50px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: #405252;
+    align-self: center;
+    text-align: center;
 }
