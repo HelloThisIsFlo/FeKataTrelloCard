@@ -56,7 +56,10 @@ html * {
 }
 
 .attachment__icon {
-    width: 50px;
+    font-size: 30px;
+    color: #405252;
+    align-self: center;
+    text-align: center;
 }
 
 .attachment__number {
