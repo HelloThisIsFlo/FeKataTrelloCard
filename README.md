@@ -2,7 +2,6 @@
 
 
 ## Note
-When commmitting, add at the end of the commit message:
-```
-Co-authored-by: Tom Spencer  <thomas.spencer@codurance.com>
-```
+Inspired by:
+https://floriankempenich.com/my-first-fe-kata
+
